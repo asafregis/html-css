@@ -33,8 +33,10 @@
             padding-left: 10px;
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
+            line-height: 1.4;
                         
         }
+       
         h1{
             text-align: center;
             color: #383b2a;
@@ -44,10 +46,37 @@
             color: #DF9231;
             text-shadow: 1px 2px 4px #df913156;
         }
-        #voltar{
-            text-align: right;
-
+        
+        
+        .fisicos{
+            font-family: 'Roboto';
+            font-weight: 500;
+            color:#be5b25;
+            font-size: 1.3em;
         }
+
+        abbr{
+            text-decoration: underline;
+        }
+        #video{
+            background-color: #be5b25;
+            margin: 0px -27px 30px -16px;
+            left: 0%;
+            top: 0%;
+            border-radius: 10px;
+            padding-bottom: 59%;
+
+            position: relative;
+        }
+        #video > iframe{
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+            
+        }
+
         a{
             text-decoration: none;
             color: #7f8d40;
@@ -55,16 +84,9 @@
         a:hover{
             text-decoration: underline;
         }
-        .fisicos{
-            font-family: 'Roboto';
-            font-weight: 500;
-            color:#be5b25;
-        }
-        abbr{
-            text-decoration: underline;
-        }
-        #video{
-            text-align: center;
+        #voltar{
+            text-align: right;
+
         }
 
         
